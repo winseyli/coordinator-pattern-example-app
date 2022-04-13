@@ -9,7 +9,7 @@ import UIKit
 
 class FirstViewController: UIViewController {
     
-    weak var coordinator: MainCoordinator?
+    weak var coordinator: FirstChildCoordinator?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,5 +34,11 @@ class FirstViewController: UIViewController {
         //Constraints
         stackView.centerXAnchor.constraint(equalTo: self.view.centerXAnchor).isActive = true
         stackView.centerYAnchor.constraint(equalTo: self.view.centerYAnchor).isActive = true
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        
+        coordinator?.didFinish()
     }
 }

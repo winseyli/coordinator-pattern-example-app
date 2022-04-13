@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5A1BDB33280657D1002563A6 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1BDB32280657D1002563A6 /* FirstViewController.swift */; };
+		5A1BDB3528065CCD002563A6 /* FirstChildCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1BDB3428065CCD002563A6 /* FirstChildCoordinator.swift */; };
 		5ADC5D322805848D006BF2BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADC5D312805848D006BF2BF /* AppDelegate.swift */; };
 		5ADC5D342805848D006BF2BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADC5D332805848D006BF2BF /* SceneDelegate.swift */; };
 		5ADC5D3B2805848D006BF2BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ADC5D3A2805848D006BF2BF /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		5A1BDB32280657D1002563A6 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		5A1BDB3428065CCD002563A6 /* FirstChildCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstChildCoordinator.swift; sourceTree = "<group>"; };
 		5ADC5D2E2805848D006BF2BF /* coordinator-pattern-example-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coordinator-pattern-example-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ADC5D312805848D006BF2BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5ADC5D332805848D006BF2BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 			children = (
 				5ADC5D312805848D006BF2BF /* AppDelegate.swift */,
 				5ADC5D4528058563006BF2BF /* Coordinator.swift */,
+				5A1BDB3428065CCD002563A6 /* FirstChildCoordinator.swift */,
 				5A1BDB32280657D1002563A6 /* FirstViewController.swift */,
 				5ADC5D47280585A8006BF2BF /* MainCoordinator.swift */,
 				5ADC5D4928058647006BF2BF /* MainViewController.swift */,
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A1BDB3528065CCD002563A6 /* FirstChildCoordinator.swift in Sources */,
 				5ADC5D4628058563006BF2BF /* Coordinator.swift in Sources */,
 				5ADC5D322805848D006BF2BF /* AppDelegate.swift in Sources */,
 				5ADC5D4A28058647006BF2BF /* MainViewController.swift in Sources */,

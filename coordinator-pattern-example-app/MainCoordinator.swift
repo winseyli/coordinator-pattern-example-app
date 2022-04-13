@@ -17,6 +17,13 @@ class MainCoordinator: Coordinator {
 
     func start() {
         let vc = MainViewController()
+        vc.coordinator = self
         navigationController.pushViewController(vc, animated: false)
+    }
+    
+    func showFirstVC() {
+        let vc = FirstViewController()
+        vc.coordinator = self
+        navigationController.pushViewController(vc, animated: true)
     }
 }

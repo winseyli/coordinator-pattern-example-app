@@ -35,10 +35,4 @@ class FirstViewController: UIViewController {
         stackView.centerXAnchor.constraint(equalTo: self.view.centerXAnchor).isActive = true
         stackView.centerYAnchor.constraint(equalTo: self.view.centerYAnchor).isActive = true
     }
-    
-    override func viewDidDisappear(_ animated: Bool) {
-        super.viewDidDisappear(animated)
-        
-        coordinator?.didFinish()
-    }
 }

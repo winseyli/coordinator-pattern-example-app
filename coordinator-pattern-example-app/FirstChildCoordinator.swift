@@ -23,8 +23,4 @@ class FirstChildCoordinator: Coordinator {
         vc.coordinator = self
         navigationController.pushViewController(vc, animated: true)
     }
-    
-    func didFinish() {
-        parentCoordinator?.childDidFinish(self)
-    }
 }
